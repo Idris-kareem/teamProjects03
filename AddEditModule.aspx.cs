@@ -15,6 +15,7 @@ namespace Team11
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Response.Write("<script language = javascript>alert('hi');</script>");
             if (!IsPostBack)
             {
                 DropDownListMain.Items.Add("Please select data you wish to manage: ");
