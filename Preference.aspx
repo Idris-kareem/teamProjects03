@@ -14,6 +14,60 @@
             
         };
         </script>
+    <style type="text/css">
+        .auto-style5 {
+            width: 75px;
+            text-align: center;
+        }
+        .auto-style6 {
+            width: 119px;
+            text-align: center;
+        }
+        .auto-style7 {
+            width: 119px;
+            text-align: center;
+        }
+        .auto-style8 {
+            width: 69px;
+        }
+        .auto-style9 {
+            width: 69px;
+            text-align: center;
+        }
+        .auto-style10 {
+            width: 73px;
+        }
+        .auto-style11 {
+            width: 55px;
+        }
+        .auto-style12 {
+            text-align: center;
+            width: 55px;
+        }
+        .auto-style13 {
+            width: 119px;
+            text-align: center;
+            font-size: medium;
+        }
+        .auto-style14 {
+            font-size: medium;
+        }
+        .auto-style15 {
+            width: 73px;
+            text-align: center;
+        }
+        .auto-style16 {
+            width: 94px;
+            text-align: center;
+        }
+        .auto-style17 {
+            width: 106px;
+            text-align: center;
+        }
+        .auto-style18 {
+            width: 106px;
+        }
+    </style>
 </asp:Content>
 
 <%-- Page Title Content --%>
@@ -127,7 +181,186 @@
     </div><!-- ./canister -->
    
 
-    
+    <div class ="canister">
+        <div class ="canistertitle">
+            <h2>Round Dates</h2>
+        </div>
+        <div class ="canistercontainer">
+
+            <table style="width: 98%; height: 85px;">
+                <tr>
+                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style15">&nbsp;</td>
+                    <td class="auto-style16">&nbsp;</td>
+                    <td class="auto-style17">&nbsp;</td>
+                    <td class="auto-style13"><strong>Semester 1</strong></td>
+                    <td class="auto-style8">&nbsp;</td>
+                    <td class="auto-style10">&nbsp;</td>
+                    <td class="auto-style11">&nbsp;</td>
+                    <td class="auto-style18">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style15">&nbsp;</td>
+                    <td class="auto-style16">&nbsp;</td>
+                    <td class="auto-style17">&nbsp;</td>
+                    <td class="auto-style6">&nbsp;</td>
+                    <td class="auto-style8">&nbsp;</td>
+                    <td class="auto-style10">&nbsp;</td>
+                    <td class="auto-style11">&nbsp;</td>
+                    <td class="auto-style18">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style5">Start:</td>
+                    <td class="auto-style15">
+                        <asp:DropDownList ID="dayStart1" runat="server" Height="28px" Width="54px">
+                            <asp:ListItem>1</asp:ListItem>
+                            <asp:ListItem>2</asp:ListItem>
+                            <asp:ListItem>3</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                    <td class="auto-style16">
+                        <asp:DropDownList ID="monthStart1" runat="server" Height="28px" Width="110px">
+                            <asp:ListItem>January</asp:ListItem>
+                            <asp:ListItem>February</asp:ListItem>
+                            <asp:ListItem>March</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                    <td class="auto-style17">
+                        <asp:DropDownList ID="yearart1" runat="server" Height="28px" OnSelectedIndexChanged="DropDownList3_SelectedIndexChanged" Width="91px">
+                            <asp:ListItem>2014</asp:ListItem>
+                            <asp:ListItem>2015</asp:ListItem>
+                            <asp:ListItem>2016</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style9">End:</td>
+                    <td class="auto-style15">
+                        <asp:DropDownList ID="dayEnd1" runat="server" Height="28px" Width="54px">
+                            <asp:ListItem>1</asp:ListItem>
+                            <asp:ListItem>2</asp:ListItem>
+                            <asp:ListItem>3</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                    <td class="auto-style12">
+                        <asp:DropDownList ID="monthEnd1" runat="server" Height="28px" Width="110px">
+                            <asp:ListItem>January</asp:ListItem>
+                            <asp:ListItem>February</asp:ListItem>
+                            <asp:ListItem>March</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                    <td class="auto-style17">
+                        <asp:DropDownList ID="yearEnd1" runat="server" Height="28px" OnSelectedIndexChanged="DropDownList3_SelectedIndexChanged" Width="91px">
+                            <asp:ListItem>2014</asp:ListItem>
+                            <asp:ListItem>2015</asp:ListItem>
+                            <asp:ListItem>2016</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style15">&nbsp;</td>
+                    <td class="auto-style16">&nbsp;</td>
+                    <td class="auto-style17">&nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style9">&nbsp;</td>
+                    <td class="auto-style15">&nbsp;</td>
+                    <td class="auto-style12">&nbsp;</td>
+                    <td class="auto-style17">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style5"><span class="auto-style14"></td>
+                    <td class="auto-style15">&nbsp;</td>
+                    <td class="auto-style16">&nbsp;</td>
+                    <td class="auto-style17"></span></td>
+                    <td class="auto-style13"><strong>Semester 2</strong></td>
+                    <td class="auto-style8"><span class="auto-style14"></td>
+                    <td class="auto-style10">&nbsp;</td>
+                    <td class="auto-style11">&nbsp;</td>
+                    <td class="auto-style18"></span></td>
+                </tr>
+                <tr>
+                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style15">&nbsp;</td>
+                    <td class="auto-style16">&nbsp;</td>
+                    <td class="auto-style17">&nbsp;</td>
+                    <td class="auto-style6">&nbsp;</td>
+                    <td class="auto-style8">&nbsp;</td>
+                    <td class="auto-style10">&nbsp;</td>
+                    <td class="auto-style11">&nbsp;</td>
+                    <td class="auto-style18">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style5">Start:</td>
+                    <td class="auto-style15">
+                        <asp:DropDownList ID="daySelect2" runat="server" Height="28px" Width="54px">
+                            <asp:ListItem>1</asp:ListItem>
+                            <asp:ListItem>2</asp:ListItem>
+                            <asp:ListItem>3</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                    <td class="auto-style16">
+                        <asp:DropDownList ID="monthSelect2" runat="server" Height="28px" Width="110px">
+                            <asp:ListItem>January</asp:ListItem>
+                            <asp:ListItem>February</asp:ListItem>
+                            <asp:ListItem>March</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                    <td class="auto-style17">
+                        <asp:DropDownList ID="yearSelect2" runat="server" Height="28px" OnSelectedIndexChanged="DropDownList3_SelectedIndexChanged" Width="91px">
+                            <asp:ListItem>2014</asp:ListItem>
+                            <asp:ListItem>2015</asp:ListItem>
+                            <asp:ListItem>2016</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style9">End:</td>
+                    <td class="auto-style15">
+                        <asp:DropDownList ID="daySelect4" runat="server" Height="28px" Width="54px">
+                            <asp:ListItem>1</asp:ListItem>
+                            <asp:ListItem>2</asp:ListItem>
+                            <asp:ListItem>3</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                    <td class="auto-style12">
+                        <asp:DropDownList ID="monthSelect4" runat="server" Height="28px" Width="110px">
+                            <asp:ListItem>January</asp:ListItem>
+                            <asp:ListItem>February</asp:ListItem>
+                            <asp:ListItem>March</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                    <td class="auto-style17">
+                        <asp:DropDownList ID="yearSelect4" runat="server" Height="28px" OnSelectedIndexChanged="DropDownList3_SelectedIndexChanged" Width="91px">
+                            <asp:ListItem>2014</asp:ListItem>
+                            <asp:ListItem>2015</asp:ListItem>
+                            <asp:ListItem>2016</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                </tr>
+            </table>
+            <table style="width:100%;">
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                    <asp:Button class="btn btn-success btn-block" ID="Button2" runat="server" onclick="Button1_Click" Text="Save" />
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
    
    
    

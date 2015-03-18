@@ -553,6 +553,7 @@
                         <div class="text-center col-md-12 col-sm-12">
                             <div class="text-center col-md-12 col-sm-12">
                             <asp:RadioButtonList CssClass="center" ID="RadioButtonListSemester" runat="server" RepeatDirection="Horizontal">
+                                <%--Vonnie--%> 
                                 <asp:ListItem class="btn btn-primary " Enabled="False">Semester 1</asp:ListItem>
                                 <asp:ListItem class="btn btn-primary leftmarg" Selected="True">Semester 2</asp:ListItem>
                             </asp:RadioButtonList>
